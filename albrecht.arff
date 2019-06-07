@@ -1,0 +1,74 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% This is a PROMISE Software Engineering Repository data set made publicly
+% available in order to encourage repeatable, verifiable, refutable, and/or
+% improvable predictive models of software engineering.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% To read/write comments on this data, see 
+% http://code.google.com/p/promisedata/wiki/Albrecht .
+
+% 1. Title/Topic: ALBRECHT
+%
+%
+% 2. Sources:
+%		-- Creators: Dr. Albrecht A.J., Dr. Gaffney J. 
+%		-- Reference: A. J. Albrecht, J. Gaffney, 1983 Software function, 
+%			source lines of code, and development effort prediction. 
+%			IEEE Transactions on Software Engineering, 9, 639¨C648.
+%		-- Donor: Yanfu Li (liyanfu@nus.edu.sg)
+%		-- Date:  October 14, 2009
+
+% 3. Past usage:
+%
+%		[1] A. J. Albrecht, J. Gaffney, 1983 Software function, 
+%		source lines of code, and development effort prediction. 
+%		IEEE Transactions on Software Engineering, 9, 639¨C648.
+%
+%		[2] M. Shepperd, C. Schofield. 1997 Estimating software 
+%		project effort using analogies. 
+%		IEEE Transactions on Software Engineering, 23, 736-743.
+%
+%		[3] Y.F. Li, M. Xie. T.N. Goh. 2009. A Study of Project Selection 
+%		and Feature Weighting for Analogy Based Software Cost Estimation. 
+%		Journal of Systems and Software. 82(2), 241-252.
+%
+%		[4] Y.F. Li, M. Xie, T.N. Goh. 2009. A Study on the Non-linear 
+%		Adjustment for Analogy Based Software Cost Estimation. 
+%		Empirical Software Engineering. 14(6), 603-643.
+
+@relation albrecht
+
+@attribute Input numeric
+@attribute Output numeric
+@attribute Inquiry numeric
+@attribute File numeric
+@attribute FPAdj numeric
+@attribute RawFPcounts numeric
+@attribute AdjFP numeric
+@attribute Effort numeric
+
+@data
+25,150,75,60,1,1750,1750,102.4
+193,98,70,36,1,1902,1902,105.2
+70,27,0,12,0.8,535,428,11.1
+40,60,20,12,1.15,660,759,21.1
+10,69,1,9,0.9,478.89,431,28.8
+13,19,0,23,0.75,377.33,283,10
+34,14,0,5,0.8,256.25,205,8
+17,17,15,5,1.1,262.73,289,4.9
+45,64,14,16,0.95,715.79,680,12.9
+40,60,20,15,1.15,690.43,794,19
+41,27,29,5,1.1,465.45,512,10.8
+33,17,8,5,0.75,298.67,224,2.9
+28,41,16,11,0.85,490.59,417,7.5
+43,40,20,35,0.85,802.35,682,12
+7,12,13,8,0.95,220,209,4.1
+28,38,24,9,1.05,487.62,512,15.8
+42,57,12,5,1.1,550.91,606,18.3
+27,20,24,6,1.1,363.64,400,8.9
+48,66,13,50,1.15,1073.91,1235,38.1
+69,112,21,39,1.2,1310,1572,61.2
+25,28,4,22,1.05,476.19,500,3.6
+61,68,0,11,1,694,694,11.8
+15,15,6,3,1.05,189.52,199,0.5
+12,15,0,15,0.95,273.68,260,6.1
